@@ -1,4 +1,4 @@
-gem
+Springster Scratchpad
 =========================
 
 This is an application scaffold for Molo_.
