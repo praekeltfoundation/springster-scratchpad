@@ -1,0 +1,25 @@
+.no-search-results {
+  color: #a9a9a9;
+}
+.search {
+  label {
+      display: none;
+  }
+}
+
+.search-result {
+  display: block;
+  margin: 18px 0;
+  padding: 18px;
+  overflow: auto;
+}
+
+#gem-footer #search-form {
+  margin: 18px 0;
+  label, input, button {
+    display: block;
+  }
+  input {
+    width: 100%;
+  }
+}

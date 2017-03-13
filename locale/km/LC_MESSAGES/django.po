@@ -1,0 +1,793 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 14:27+0200\n"
+"PO-Revision-Date: 2017-01-25 13:50+0000\n"
+"Last-Translator: Ntu2ko Trevor <trevor@praekelt.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: khm_KH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1485352242.389104\n"
+
+#: gem/constants.py:6
+msgid "male"
+msgstr "ប្រុស"
+
+#: gem/constants.py:7
+msgid "female"
+msgstr "ស្រី"
+
+#: gem/constants.py:8
+msgid "don't want to answer"
+msgstr "មិនចង់ឆ្លើយ"
+
+#: gem/forms.py:26 gem/forms.py:138
+msgid "Gender"
+msgstr "ភេទ"
+
+#: gem/forms.py:32
+msgid "Answer to Security Question 1"
+msgstr ""
+
+#: gem/forms.py:42
+msgid "Answer to Security Question 2"
+msgstr ""
+
+#: gem/forms.py:57
+msgid ""
+"Sorry, but that is an invalid username. Please don't use your email address "
+"or phone number in your username."
+msgstr ""
+
+#: gem/forms.py:74 gem/templates/forgot_password.html:23
+#: gem/templates/registration/login.html:19
+msgid "Username"
+msgstr "ឈ្មោះអ្នកប្រើប្រាស់"
+
+#: gem/forms.py:76
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "តម្លៃនេះត្រូវមានតែអក្សរ លេខ និងបន្ទាត់ខាងក្រោមប៉ុណ្ណោះ។"
+
+#: gem/forms.py:82
+msgid "Answer to Security Question"
+msgstr "ឆ្លើយសំណួរ​សុវត្ថិភាព"
+
+#: gem/forms.py:113 gem/forms.py:130
+msgid "This value must contain only numbers."
+msgstr "តម្លៃនេះត្រូវមានតែលេខប៉ុណ្ណោះ។"
+
+#: gem/forms.py:115 gem/templates/reset_password.html:26
+msgid "PIN"
+msgstr "កូដ PIN"
+
+#: gem/forms.py:132 gem/templates/reset_password.html:29
+msgid "Confirm PIN"
+msgstr "បញ្ជាក់កូដ PIN "
+
+#: gem/forms.py:157
+msgid ""
+"Sorry, but that is an invalid display name. Please don't use your email "
+"address or phone number in your display name."
+msgstr ""
+
+#: gem/forms.py:179
+msgid ""
+"Sorry, the name you have used is not allowed. Please, use a different name "
+"for your display name."
+msgstr ""
+
+#: gem/forms.py:189
+msgid "Spam"
+msgstr ""
+
+#: gem/forms.py:190
+msgid "Offensive Language"
+msgstr ""
+
+#: gem/forms.py:191
+msgid "Bullying"
+msgstr ""
+
+#: gem/forms.py:192
+msgid "Other"
+msgstr ""
+
+#: gem/settings/base.py:212
+msgid "Tagalog"
+msgstr ""
+
+#: gem/settings/base.py:213
+msgid "Kinyarwanda"
+msgstr ""
+
+#: gem/settings/base.py:214
+msgid "Hausa"
+msgstr ""
+
+#: gem/settings/base.py:215
+msgid "Bengali"
+msgstr ""
+
+#: gem/settings/base.py:216
+msgid "Burmese"
+msgstr ""
+
+#: gem/settings/base.py:308
+msgid "Log in to vote"
+msgstr "ចូលដើម្បីបោះឆ្នោត"
+
+#: gem/settings/base.py:309
+msgid "That username already exits. Please try another one."
+msgstr ""
+
+#: gem/settings/base.py:310
+msgid "The old password is incorrect."
+msgstr ""
+
+#: gem/settings/base.py:311
+msgid "Vote"
+msgstr "បោះឆ្នោត"
+
+#: gem/settings/base.py:312
+msgid "Show Results"
+msgstr "បង្ហាញលទ្ធផល"
+
+#: gem/settings/base.py:313
+msgid "You voted: "
+msgstr "អ្នកបានបោះឆ្នោត៖"
+
+#: gem/settings/base.py:314
+msgid "Name of the city you were born in"
+msgstr ""
+
+#: gem/settings/base.py:315
+msgid "Name of your primary school"
+msgstr ""
+
+#: gem/templates/403_csrf.html:9
+msgid "Unable to Login"
+msgstr ""
+
+#: gem/templates/403_csrf.html:12
+msgid "Hi Girl"
+msgstr ""
+
+#: gem/templates/403_csrf.html:13
+msgid ""
+"Sorry, you are having trouble accessing this feature! Due to a temporary "
+"technical issue, log in and registrations are not available on the Free "
+"Basics app for now. To login or register for a profile, visit our free "
+"mobisite through your mobile browser at"
+msgstr ""
+
+#: gem/templates/403_csrf.html:13
+msgid " We're working hard to get this problem resolved. Thank you."
+msgstr ""
+
+#: gem/templates/403_csrf.html:15
+msgid "XO"
+msgstr ""
+
+#: gem/templates/403_csrf.html:16
+msgid "Girl Effect"
+msgstr ""
+
+#: gem/templates/404.html:8
+msgid "Page not found"
+msgstr "រកទំព័រមិនឃើញ"
+
+#: gem/templates/404.html:10
+msgid "Sorry, this page could not be found."
+msgstr "សូមអភ័យទោស មិនអាចរកឃើញទំព័រនេះ។"
+
+#: gem/templates/500.html:12 gem/templates/500.html:16
+msgid "Internal server error"
+msgstr "បញ្ហាម៉ាស៊ីនមេខាងក្នុង"
+
+#: gem/templates/500.html:18
+msgid "Sorry, there seems to be an error. Please try again soon."
+msgstr "សូមអភ័យទោស ហាក់ដូចជាមានបញ្ហាកើតឡើង។ សូមព្យាយាមម្តងទៀតក្នុងពេលបន្តិចទៀត។"
+
+#: gem/templates/admin/import_from_git.html:8
+msgid "Import content"
+msgstr ""
+
+#: gem/templates/admin/import_from_git.html:11
+msgid "Import content from a Universal Core site"
+msgstr ""
+
+#: gem/templates/admin/versions.html:7
+msgid "Plugin"
+msgstr "កម្មវិធីជំនួយ"
+
+#: gem/templates/admin/versions.html:8
+msgid "PyPI Version"
+msgstr "កំណែ PyPI"
+
+#: gem/templates/admin/versions.html:9
+msgid "Running Version"
+msgstr ""
+
+#: gem/templates/admin/versions.html:10
+msgid "Status"
+msgstr "ស្ថានភាព​"
+
+#: gem/templates/admin/versions.html:18
+msgid "UpToDate"
+msgstr "បច្ចុប្បន្នភាព"
+
+#: gem/templates/admin/versions.html:21
+msgid "Not installed"
+msgstr "មិនបានដំឡើង"
+
+#: gem/templates/admin/versions.html:23
+msgid "Compare"
+msgstr "ប្រៀបធៀប"
+
+#: gem/templates/base.html:68
+msgid "Menu"
+msgstr "ម៉ឺនុយ"
+
+#: gem/templates/base.html:70 gem/templates/profiles/register.html:8
+#: gem/templates/profiles/register.html:61
+msgid "Sign up"
+msgstr ""
+
+#: gem/templates/base.html:72 gem/templates/base.html:135
+msgid "Profile"
+msgstr "កម្រង​ព័ត៌មាន"
+
+#: gem/templates/base.html:98
+msgid "Back to Top"
+msgstr "ត្រឡប់ទៅលើ"
+
+#: gem/templates/base.html:108 gem/templates/core/tags/breadcrumbs.html:6
+#: gem/templates/polls/results.html:28
+msgid "Home"
+msgstr "ទំព័រដើម"
+
+#: gem/templates/base.html:109
+msgid "Categories"
+msgstr "ចំណាត់ថ្នាក់"
+
+#: gem/templates/base.html:122
+msgid "Sign Up"
+msgstr ""
+
+#: gem/templates/base.html:128 gem/templates/registration/login.html:7
+#: gem/templates/registration/login.html:23
+msgid "Log in"
+msgstr "ចូល"
+
+#: gem/templates/base.html:141
+msgid "Log out"
+msgstr ""
+
+#: gem/templates/base.html:150
+msgid "All Rights Reserved."
+msgstr "រក្សាសិទ្ធិគ្រប់យ៉ាង។"
+
+#: gem/templates/comments/comment.html:6
+msgid "Big Sister"
+msgstr ""
+
+#: gem/templates/comments/comment.html:11
+msgid "Anonymous"
+msgstr "អនាមិក"
+
+#: gem/templates/comments/comment.html:19
+msgid ""
+"This comment has been removed by the community. Please read our platform "
+"rules."
+msgstr "មតិនេះត្រូវបានលុបចេញដោយសហគមន៍។ សូមអានច្បាប់វេទិការបស់យើង។"
+
+#: gem/templates/comments/comment.html:24
+msgid "ago"
+msgstr "មុន"
+
+#: gem/templates/comments/comment.html:25
+msgid "Report"
+msgstr "រាយការណ៍"
+
+#: gem/templates/comments/comment.html:28
+msgid "Reply"
+msgstr "ឆ្លើយតប"
+
+#: gem/templates/comments/comment_block.html:9
+#, python-format
+msgid "%(comment_count)s comment"
+msgid_plural "%(comment_count)s comments"
+msgstr[0] ""
+
+#: gem/templates/comments/comment_block.html:16
+msgid "Log in to comment"
+msgstr "ចូលដើម្បីផ្តល់មតិ"
+
+#: gem/templates/comments/comment_block.html:19
+msgid "Commenting on this article is currently disabled"
+msgstr "ការផ្តល់មតិលើអត្ថបទនេះត្រូវបានបិទដំណើរការនៅពេលនេះ"
+
+#: gem/templates/comments/comment_block.html:35
+msgid "view more comments"
+msgstr "មើលមតិផ្សេងទៀត"
+
+#: gem/templates/comments/comments.html:8
+msgid "Comments"
+msgstr "ការផ្តល់មតិ"
+
+#: gem/templates/comments/comments.html:33
+#: gem/templates/comments/report_comment.html:21
+#: gem/templates/comments/report_response.html:18
+#: gem/templates/comments/user_has_already_reported.html:17
+msgid "Back to article"
+msgstr "ត្រឡប់ទៅអត្ថបទ"
+
+#: gem/templates/comments/form.html:7
+msgid "Please correct the error below"
+msgid_plural "Please correct the errors below"
+msgstr[0] ""
+
+#: gem/templates/comments/form.html:12 gem/templates/search/search_block.html:7
+msgid "Submit"
+msgstr "បញ្ជូន"
+
+#: gem/templates/comments/form.html:13
+msgid "Comment Anonymously"
+msgstr "ផ្តល់មតិអនាមិក"
+
+#: gem/templates/comments/preview.html:21 gem/templates/comments/reply.html:20
+msgid "Please "
+msgstr "សូម"
+
+#: gem/templates/comments/preview.html:21 gem/templates/comments/reply.html:20
+msgid "log in"
+msgstr ""
+
+#: gem/templates/comments/preview.html:21 gem/templates/comments/reply.html:20
+msgid " to leave a comment."
+msgstr "ដើម្បីផ្តល់មតិ។​"
+
+#: gem/templates/comments/report_comment.html:11
+msgid "Please let us know why you are reporting this comment?"
+msgstr ""
+
+#: gem/templates/comments/report_comment.html:19
+msgid "Report Comment"
+msgstr ""
+
+#: gem/templates/comments/report_response.html:11
+msgid "Thanks!"
+msgstr "សូមអរគុណ!"
+
+#: gem/templates/comments/report_response.html:15
+msgid "This comment has been reported."
+msgstr "មតិនេះត្រូវបានរាយការណ៍។"
+
+#: gem/templates/comments/report_response.html:16
+msgid ""
+"It will be reviewed by the moderation team and may be removed if it breaks "
+"our Platform rules"
+msgstr ""
+"វានឹងត្រូវពិនិត្យមើលដោយក្រុមសម្របសម្រួល "
+"ហើយអាចនឹងត្រូវលុប​ចេញប្រសិនបើរំលោភច្បាប់វេទិការបស់យើង"
+
+#: gem/templates/comments/user_has_already_reported.html:11
+msgid "You have already reported this comment"
+msgstr ""
+
+#: gem/templates/comments/user_has_already_reported.html:15
+msgid ""
+"The comment will be reviewed by the moderation team and may be removed if it "
+"breaks our Platform rules"
+msgstr ""
+
+#: gem/templates/core/article_intro_partial.html:33
+msgid "Read more"
+msgstr "អានបន្ថែម"
+
+#: gem/templates/core/language_block.html:5
+msgid "Language"
+msgstr ""
+
+#: gem/templates/core/main.html:20
+msgid ""
+"This site is free for all MTN subscribers. If you are an Airtel subscriber, "
+"you can access this site for free by going to "
+msgstr ""
+"ប្រសិនបើអ្នកជាអតិថិជនរបស់ Airtel  អ្នកអាចចូលទៅកាន់​គេហទំព័រ​នេះ​ដោយ​ឥតគិតថ្លៃ"
+"! ចូលទៅកាន់"
+
+#: gem/templates/forgot_password.html:7 gem/templates/forgot_password.html:33
+#: gem/templates/registration/login.html:26
+msgid "Forgot PIN"
+msgstr "ភ្លេចកូដ PIN"
+
+#: gem/templates/forgot_password.html:26
+msgid "Security question"
+msgstr "សំណួរ​សុវត្ថិភាព"
+
+#: gem/templates/forgot_password.html:27
+msgid "Please answer the following security question."
+msgstr "សូមឆ្លើយសំណួរសុវត្ថិភាពដូចខាងក្រោម។"
+
+#: gem/templates/polls/results.html:7
+msgid "What's your opinion?"
+msgstr "តើអ្នកមានមតិអ្វីខ្លះ?"
+
+#: gem/templates/polls/results.html:25
+msgid "Thank you for voting!"
+msgstr "អរគុណសម្រាប់ការបោះឆ្នោត!"
+
+#: gem/templates/profiles/change_password.html:25
+#: gem/templates/profiles/viewprofile.html:70
+msgid "Old Password:"
+msgstr "លេខសម្ងាត់​ចាស់៖"
+
+#: gem/templates/profiles/change_password.html:30
+#: gem/templates/profiles/viewprofile.html:75
+msgid "New Password:"
+msgstr "លេខសម្ងាត់​ថ្មី៖"
+
+#: gem/templates/profiles/change_password.html:35
+msgid "Confirm New Password:"
+msgstr "បញ្ជាក់លេខសម្ងាត់ថ្មី៖"
+
+#: gem/templates/profiles/change_password.html:39
+msgid "Change Password"
+msgstr "ប្ដូរ​លេខសម្ងាត់"
+
+#: gem/templates/profiles/done.html:7
+msgid "Thank you for joining!"
+msgstr "អរគុណសម្រាប់ការចូលរួម!"
+
+#: gem/templates/profiles/done.html:8
+msgid "Let us know your birthday to get access to exclusive content."
+msgstr ""
+"អនុញ្ញាតឱ្យយើងដឹងពីថ្ងៃកំណើតរបស់អ្នក ដើម្បីចូល​ប្រើប្រាស់​ខ្លឹមសារ​ពិសេសៗ។"
+
+#: gem/templates/profiles/done.html:11
+msgid "Update"
+msgstr "ធ្វើបច្ចុប្បន្នភាព"
+
+#: gem/templates/profiles/done.html:12
+msgid "Skip"
+msgstr "រំលង"
+
+#: gem/templates/profiles/editprofile.html:7
+msgid "Edit your Profile"
+msgstr "កែកម្រងព័ត៌មានរបស់អ្នក"
+
+#: gem/templates/profiles/editprofile.html:11
+msgid "Nickname:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:12
+#: gem/templates/profiles/register.html:16
+msgid ""
+"Please do not use your real name, phone number or email address as it's "
+"unsafe."
+msgstr ""
+"សូមកុំប្រើឈ្មោះ លេខទូរស័ព្ទ ឬអាសយដ្ឋានអ៊ីម៉ែលពិតប្រាកដរបស់អ្នក "
+"ព្រោះ​គ្មានសុវត្ថិភាពទេ។"
+
+#: gem/templates/profiles/editprofile.html:17
+#: gem/templates/profiles/viewprofile.html:27
+msgid "Date of birth:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:20
+#: gem/templates/profiles/viewprofile.html:33
+msgid "Gender:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:25
+#: gem/templates/profiles/viewprofile.html:40
+msgid "Mobile number:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:30
+msgid "Email address:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:36
+msgid "Update profile"
+msgstr ""
+
+#: gem/templates/profiles/register.html:12
+msgid "Not a member yet? Join us by signing up below."
+msgstr "មិនទាន់ជាសមាជិក? ចូលរួមជាមួយយើងដោយចុះឈ្មោះខាងក្រោម។"
+
+#: gem/templates/profiles/register.html:15
+msgid "Choose a username"
+msgstr "ជ្រើសរើសឈ្មោះអ្នកប្រើប្រាស់"
+
+#: gem/templates/profiles/register.html:20
+msgid "Choose a 4-digit pin"
+msgstr "ជ្រើសរើសកូដ PIN 4 ខ្ទង់"
+
+#: gem/templates/profiles/register.html:26
+msgid "Enter your mobile number"
+msgstr ""
+
+#: gem/templates/profiles/register.html:34
+msgid "I identify my gender as"
+msgstr "ខ្ញុំកំណត់ភេទខ្ញុំជា"
+
+#: gem/templates/profiles/register.html:37
+msgid "Only you will see this"
+msgstr "មានតែអ្នកទេដែលអាចមើលឃើញ"
+
+#: gem/templates/profiles/register.html:39
+msgid "Security questions"
+msgstr "សំណួរ​សុវត្ថិភាព"
+
+#: gem/templates/profiles/register.html:40
+msgid ""
+"Please answer the following security questions. You'll have to provide these "
+"answers if you ever need to reset your password."
+msgstr ""
+"សូមឆ្លើយសំណួរសុវត្ថិភាពដូចខាងក្រោម។ អ្នកនឹងត្រូវ​​ផ្តល់ចម្លើយ​ទាំងនេះ​ "
+"ប្រសិន​បើ​អ្នកត្រូវការ​ប្ដូរលេខ​សម្ងាត់​របស់​អ្នក។"
+
+#: gem/templates/profiles/register.html:52
+msgid ""
+"Please accept the terms and conditions in order to complete registration"
+msgstr ""
+
+#: gem/templates/profiles/register.html:57
+#: gem/templates/yourwords/your_words_competition_entry.html:66
+msgid "I accept the terms and conditions"
+msgstr ""
+
+#: gem/templates/profiles/register.html:63
+msgid "already joined?"
+msgstr "ចូលរួមរួចហើយ?"
+
+#: gem/templates/profiles/viewprofile.html:8
+msgid "Hello"
+msgstr "សួស្តី"
+
+#: gem/templates/profiles/viewprofile.html:12
+msgid "log out"
+msgstr "ចាកចេញ"
+
+#: gem/templates/profiles/viewprofile.html:18
+msgid "Your Profile"
+msgstr ""
+
+#: gem/templates/profiles/viewprofile.html:22
+msgid "When you type comments your name will appear as:"
+msgstr "នៅពេលដែលអ្នកបញ្ចេញមតិ ឈ្មោះរបស់អ្នកដែលបង្ហាញគឺ៖"
+
+#: gem/templates/profiles/viewprofile.html:25
+msgid "You haven't set a nickname, so your comments will appear as 'anonymous'"
+msgstr ""
+
+#: gem/templates/profiles/viewprofile.html:45
+msgid "Update Profile"
+msgstr "ធ្វើបច្ចុប្បន្នភាពកម្រងព័ត៌មាន"
+
+#: gem/templates/profiles/viewprofile.html:54
+msgid "Change Your Password"
+msgstr "ប្ដូរ​លេខសម្ងាត់របស់អ្នក"
+
+#: gem/templates/profiles/viewprofile.html:80
+msgid "Confirm Password:"
+msgstr "បញ្ជាក់លេខសម្ងាត់"
+
+#: gem/templates/profiles/viewprofile.html:84
+msgid "Change"
+msgstr "ប្តូរ"
+
+#: gem/templates/registration/login.html:13
+msgid "Not a member yet"
+msgstr "មិនទាន់ជាសមាជិក"
+
+#: gem/templates/registration/login.html:17
+msgid "Your username and password do not match. Please try again."
+msgstr ""
+
+#: gem/templates/registration/login.html:21
+msgid "4-digit pin"
+msgstr "កូដ PIN 4 ខ្ទង់"
+
+#: gem/templates/reset_password.html:7 gem/templates/reset_password.html:33
+msgid "Reset PIN"
+msgstr "កំណត់កូដ PIN ឡើងវិញ"
+
+#: gem/templates/reset_password_success.html:7
+msgid "PIN Changed"
+msgstr "បានប្តូរកូដ PIN"
+
+#: gem/templates/reset_password_success.html:10
+msgid "Your PIN was changed successfully."
+msgstr ""
+
+#: gem/templates/reset_password_success.html:12
+msgid "Continue to Sign In"
+msgstr "បន្តចូល"
+
+#: gem/templates/search/search_block.html:4
+msgid "looking for something?"
+msgstr "កំពុងស្វែងរកអ្វីមួយ?"
+
+#: gem/templates/search/search_block.html:5
+#: gem/templates/search/search_results.html:12
+#: gem/templates/search/search_results.html:64
+#: gem/templates/search/search_results.html:71
+msgid "Search"
+msgstr "ស្វែងរក"
+
+#: gem/templates/search/search_results.html:13
+msgid "results found for"
+msgstr "បានរកឃើញលទ្ធផលសម្រាប់​"
+
+#: gem/templates/search/search_results.html:67
+msgid "No search results for "
+msgstr "គ្មានលទ្ធផលស្វែងរកសម្រាប់"
+
+#: gem/templates/search/search_results.html:70
+msgid "I am looking for"
+msgstr "ខ្ញុំកំពុងស្វែងរក"
+
+#: gem/templates/surveys/molo_survey_page.html:48
+msgid "Next Question"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page.html:48
+msgid "Done"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page.html:51
+msgid "You have already completed this survey."
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page.html:54
+#: gem/templates/surveys/molo_survey_page_landing.html:9
+msgid "Back to Home page"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page.html:59
+msgid "Log in to take survey"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page_landing.html:12
+msgid "Survey Results"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page_landing.html:14
+msgid ""
+"Your survey has been completed successfully. Please see your submission "
+"results below."
+msgstr ""
+
+#: gem/templates/surveys/surveys_list.html:13
+msgid "Start"
+msgstr ""
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:7
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:19
+msgid "Edit this page"
+msgstr "កែទំព័រនេះ"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:19
+msgid "Edit"
+msgstr "កែ"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:22
+msgid "Draft"
+msgstr "ព្រាង"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:25
+msgid ""
+"This page is published but does not exist within the configured site, so "
+"cannot be reviewed."
+msgstr ""
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:25
+msgid "Live"
+msgstr "ផ្សាយបន្តផ្ទាល់"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:28
+msgid "Move"
+msgstr "ប្ដូរកន្លែង"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:31
+msgid "Copy"
+msgstr "ថតចម្លង"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:34
+msgid "Delete"
+msgstr "លុប"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:37
+msgid "Unpublish"
+msgstr "មិនចេញផ្សាយ"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:40
+msgid "Add child page"
+msgstr "បញ្ចូល​កូនទំព័រ​"
+
+#: gem/templates/yourwords/terms_and_conditions.html:48
+msgid "BACK"
+msgstr "ត្រឡប់ក្រោយ"
+
+#: gem/templates/yourwords/thank_you.html:7
+#: gem/templates/yourwords/your_words_competition_entry.html:7
+#: gem/templates/yourwords/your_words_competition_tag.html:8
+msgid "Share your story"
+msgstr "ចែករំលែករឿងរបស់អ្នក"
+
+#: gem/templates/yourwords/thank_you.html:10
+msgid "Thank you!"
+msgstr "អរគុណ!"
+
+#: gem/templates/yourwords/thank_you.html:11
+msgid ""
+"Thanks for submitting your story! You’ll find out soon if you’re a winner!"
+msgstr "អរគុណសម្រាប់ការបញ្ជូនរឿងរបស់អ្នក! អ្នកនឹងដឹងឆាប់ៗថាតើអ្នកឈ្នះដែរឬទេ!"
+
+#: gem/templates/yourwords/thank_you.html:17
+msgid "HOME"
+msgstr "ទំព័រដើម"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:51
+msgid "Title of your story"
+msgstr "ចំណងជើងរឿងរបស់អ្នក"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:57
+msgid "Tell us your story here"
+msgstr "ប្រាប់យើងអំពីរឿងរបស់អ្នកនៅទីនេះ"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:71
+msgid "Share my story anonymously"
+msgstr "ចែករំលែករឿងរបស់ខ្ញុំដោយអនាមិក"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:75
+msgid "Submit Your Story"
+msgstr "បញ្ជូនរឿងរបស់អ្នក"
+
+#: gem/templates/yourwords/your_words_competition_tag.html:18
+msgid "Write your story"
+msgstr "សរសេររឿងរបស់អ្នក"
+
+#: gem/templates/yourwords/your_words_competition_tag.html:22
+msgid "Log in to Enter"
+msgstr "ចូលដើម្បីបញ្ចូល"
+
+#: gem/views.py:113
+msgid "Too many attempts. Please try again later."
+msgstr "ព្យាយាមច្រើនដងពេក។ សូម​ព្យាយាម​ម្តង​ទៀត​នៅ​ពេល​ក្រោយ។"
+
+#: gem/views.py:131
+msgid "The username that you entered appears to be invalid. Please try again."
+msgstr ""
+"ឈ្មោះអ្នកប្រើប្រាស់ ដែលអ្នកបានបញ្ចូលហាក់ដូចជាមិនត្រឹមត្រូវ។ "
+"សូម​ព្យាយាម​ម្ដងទៀត។"
+
+#: gem/views.py:156
+msgid "Your answer to the security question was invalid. Please try again."
+msgstr ""
+"ចម្លើយរបស់អ្នកចំពោះសំណួរសុវត្ថិភាពនេះមិនត្រឹមត្រូវទេ។ សូម​ព្យាយាម​ម្ដងទៀត។"
+
+#: gem/views.py:214
+msgid "The two PINs that you entered do not match. Please try again."
+msgstr "កូដ PIN ទាំងពីរ ដែលអ្នកបានបញ្ចូលមិនត្រូវគ្នាទេ។ សូម​ព្យាយាម​ម្ដងទៀត។"
+
+#: gem/views.py:340
+msgid ""
+"This comment has been removed as it contains profanity, contact information "
+"or other inappropriate content. "
+msgstr ""
+"មតិនេះត្រូវបានលុបចេញ ដោយសារមានការប្រើពាក្យប្រមាថ ព័ត៌មានទំនាក់ទំនង "
+"ឬខ្លឹមសារមិនសមរម្យផ្សេង។"

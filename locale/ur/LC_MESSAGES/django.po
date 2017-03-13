@@ -1,0 +1,793 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-25 14:27+0200\n"
+"PO-Revision-Date: 2017-01-25 13:55+0000\n"
+"Last-Translator: Ntu2ko Trevor <trevor@praekelt.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1485352521.710174\n"
+
+#: gem/constants.py:6
+msgid "male"
+msgstr "مرد"
+
+#: gem/constants.py:7
+msgid "female"
+msgstr "مونث"
+
+#: gem/constants.py:8
+msgid "don't want to answer"
+msgstr "جواب دینا نہیں چاہتے ہیں"
+
+#: gem/forms.py:26 gem/forms.py:138
+msgid "Gender"
+msgstr "جنس"
+
+#: gem/forms.py:32
+msgid "Answer to Security Question 1"
+msgstr "سلامتی سوال کا جواب دیں 1"
+
+#: gem/forms.py:42
+msgid "Answer to Security Question 2"
+msgstr "سلامتی سوال کا جواب دیں 2"
+
+#: gem/forms.py:57
+msgid ""
+"Sorry, but that is an invalid username. Please don't use your email address "
+"or phone number in your username."
+msgstr ""
+
+#: gem/forms.py:74 gem/templates/forgot_password.html:23
+#: gem/templates/registration/login.html:19
+msgid "Username"
+msgstr "صارف نام"
+
+#: gem/forms.py:76
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "اس قدر میں صرف حروف، اعداد اور خط کشید ہونا چاہئے۔"
+
+#: gem/forms.py:82
+msgid "Answer to Security Question"
+msgstr "سلامتی سوال کا جواب دیں"
+
+#: gem/forms.py:113 gem/forms.py:130
+msgid "This value must contain only numbers."
+msgstr "اس قدر میں صرف اعداد ہونا چاہئے۔"
+
+#: gem/forms.py:115 gem/templates/reset_password.html:26
+msgid "PIN"
+msgstr "پن"
+
+#: gem/forms.py:132 gem/templates/reset_password.html:29
+msgid "Confirm PIN"
+msgstr "پن کی تصدیق کریں"
+
+#: gem/forms.py:157
+msgid ""
+"Sorry, but that is an invalid display name. Please don't use your email "
+"address or phone number in your display name."
+msgstr ""
+
+#: gem/forms.py:179
+msgid ""
+"Sorry, the name you have used is not allowed. Please, use a different name "
+"for your display name."
+msgstr ""
+
+#: gem/forms.py:189
+msgid "Spam"
+msgstr ""
+
+#: gem/forms.py:190
+msgid "Offensive Language"
+msgstr ""
+
+#: gem/forms.py:191
+msgid "Bullying"
+msgstr ""
+
+#: gem/forms.py:192
+msgid "Other"
+msgstr ""
+
+#: gem/settings/base.py:212
+msgid "Tagalog"
+msgstr ""
+
+#: gem/settings/base.py:213
+msgid "Kinyarwanda"
+msgstr ""
+
+#: gem/settings/base.py:214
+msgid "Hausa"
+msgstr ""
+
+#: gem/settings/base.py:215
+msgid "Bengali"
+msgstr ""
+
+#: gem/settings/base.py:216
+msgid "Burmese"
+msgstr ""
+
+#: gem/settings/base.py:308
+msgid "Log in to vote"
+msgstr "ووٹ کرنے کے لئے لاگ ان کریں"
+
+#: gem/settings/base.py:309
+msgid "That username already exits. Please try another one."
+msgstr ""
+
+#: gem/settings/base.py:310
+msgid "The old password is incorrect."
+msgstr ""
+
+#: gem/settings/base.py:311
+msgid "Vote"
+msgstr "ووٹ دیں"
+
+#: gem/settings/base.py:312
+msgid "Show Results"
+msgstr "نتائج دکھائیں"
+
+#: gem/settings/base.py:313
+msgid "You voted: "
+msgstr "آپ نے ووٹ دیا:"
+
+#: gem/settings/base.py:314
+msgid "Name of the city you were born in"
+msgstr ""
+
+#: gem/settings/base.py:315
+msgid "Name of your primary school"
+msgstr ""
+
+#: gem/templates/403_csrf.html:9
+msgid "Unable to Login"
+msgstr ""
+
+#: gem/templates/403_csrf.html:12
+msgid "Hi Girl"
+msgstr ""
+
+#: gem/templates/403_csrf.html:13
+msgid ""
+"Sorry, you are having trouble accessing this feature! Due to a temporary "
+"technical issue, log in and registrations are not available on the Free "
+"Basics app for now. To login or register for a profile, visit our free "
+"mobisite through your mobile browser at"
+msgstr ""
+
+#: gem/templates/403_csrf.html:13
+msgid " We're working hard to get this problem resolved. Thank you."
+msgstr ""
+
+#: gem/templates/403_csrf.html:15
+msgid "XO"
+msgstr ""
+
+#: gem/templates/403_csrf.html:16
+msgid "Girl Effect"
+msgstr ""
+
+#: gem/templates/404.html:8
+msgid "Page not found"
+msgstr "صفحہ نہیں ملا"
+
+#: gem/templates/404.html:10
+msgid "Sorry, this page could not be found."
+msgstr "معاف کریں، یہ صفحہ نہیں مل سکا۔"
+
+#: gem/templates/500.html:12 gem/templates/500.html:16
+msgid "Internal server error"
+msgstr "رور کی اندرونی خرابی"
+
+#: gem/templates/500.html:18
+msgid "Sorry, there seems to be an error. Please try again soon."
+msgstr "معاف کریں، کوئی خرابی لگتی ہے۔ جلد ہی دوبارہ کوشش کریں۔"
+
+#: gem/templates/admin/import_from_git.html:8
+msgid "Import content"
+msgstr "مندرجات درآمد کریں"
+
+#: gem/templates/admin/import_from_git.html:11
+msgid "Import content from a Universal Core site"
+msgstr "کسی یونیورسل سائٹ سے مندرجات درآمد کریں"
+
+#: gem/templates/admin/versions.html:7
+msgid "Plugin"
+msgstr "پلگ ان"
+
+#: gem/templates/admin/versions.html:8
+msgid "PyPI Version"
+msgstr "PyPI ورژن"
+
+#: gem/templates/admin/versions.html:9
+msgid "Running Version"
+msgstr ""
+
+#: gem/templates/admin/versions.html:10
+msgid "Status"
+msgstr "صورتحال"
+
+#: gem/templates/admin/versions.html:18
+msgid "UpToDate"
+msgstr "تازہ ترین"
+
+#: gem/templates/admin/versions.html:21
+msgid "Not installed"
+msgstr "نصب نہیں ہوا"
+
+#: gem/templates/admin/versions.html:23
+msgid "Compare"
+msgstr "موازنہ کریں"
+
+#: gem/templates/base.html:68
+msgid "Menu"
+msgstr "مینو"
+
+#: gem/templates/base.html:70 gem/templates/profiles/register.html:8
+#: gem/templates/profiles/register.html:61
+msgid "Sign up"
+msgstr ""
+
+#: gem/templates/base.html:72 gem/templates/base.html:135
+msgid "Profile"
+msgstr "پروفائل"
+
+#: gem/templates/base.html:98
+msgid "Back to Top"
+msgstr "اوپر واپس جائیں"
+
+#: gem/templates/base.html:108 gem/templates/core/tags/breadcrumbs.html:6
+#: gem/templates/polls/results.html:28
+msgid "Home"
+msgstr "ہوم"
+
+#: gem/templates/base.html:109
+msgid "Categories"
+msgstr "زمرہ جات"
+
+#: gem/templates/base.html:122
+msgid "Sign Up"
+msgstr ""
+
+#: gem/templates/base.html:128 gem/templates/registration/login.html:7
+#: gem/templates/registration/login.html:23
+msgid "Log in"
+msgstr "لاگ ان کریں"
+
+#: gem/templates/base.html:141
+msgid "Log out"
+msgstr ""
+
+#: gem/templates/base.html:150
+msgid "All Rights Reserved."
+msgstr "جملہ حقوق محفوظ ہیں۔"
+
+#: gem/templates/comments/comment.html:6
+msgid "Big Sister"
+msgstr ""
+
+#: gem/templates/comments/comment.html:11
+msgid "Anonymous"
+msgstr ""
+
+#: gem/templates/comments/comment.html:19
+msgid ""
+"This comment has been removed by the community. Please read our platform "
+"rules."
+msgstr ""
+"اس تبصرہ کو کمیونیٹی کے ذریعہ ہٹا دیا گیا ہے۔ براہ کرم پلیٹ فارم کے اصولوں "
+"کو پڑھیں۔"
+
+#: gem/templates/comments/comment.html:24
+msgid "ago"
+msgstr "پہلے"
+
+#: gem/templates/comments/comment.html:25
+msgid "Report"
+msgstr "رپورٹ کریں"
+
+#: gem/templates/comments/comment.html:28
+msgid "Reply"
+msgstr "جواب دیں"
+
+#: gem/templates/comments/comment_block.html:16
+msgid "Log in to comment"
+msgstr "تبصرہ کرنے کے لئے لاگ ان کریں"
+
+#: gem/templates/comments/comment_block.html:19
+msgid "Commenting on this article is currently disabled"
+msgstr "اس مضمون پر تبصرہ فی الحال غیر فعال ہے"
+
+#: gem/templates/comments/comment_block.html:35
+msgid "view more comments"
+msgstr "مزید تبصرہ جات دیکھیں"
+
+#: gem/templates/comments/comments.html:8
+msgid "Comments"
+msgstr "تبصرہ جات"
+
+#: gem/templates/comments/comments.html:33
+#: gem/templates/comments/report_comment.html:21
+#: gem/templates/comments/report_response.html:18
+#: gem/templates/comments/user_has_already_reported.html:17
+msgid "Back to article"
+msgstr "مضمون پر واپس جائیں"
+
+#: gem/templates/comments/form.html:7
+msgid "Please correct the error below"
+msgid_plural "Please correct the errors below"
+msgstr[0] ""
+
+#: gem/templates/comments/form.html:12 gem/templates/search/search_block.html:7
+msgid "Submit"
+msgstr "جمع کریں"
+
+#: gem/templates/comments/form.html:13
+msgid "Comment Anonymously"
+msgstr "گمنام طور پر تبصرہ کریں"
+
+#: gem/templates/comments/preview.html:21 gem/templates/comments/reply.html:20
+msgid "Please "
+msgstr "براہ کرم"
+
+#: gem/templates/comments/preview.html:21 gem/templates/comments/reply.html:20
+msgid "log in"
+msgstr "لاگ ان کریں"
+
+#: gem/templates/comments/preview.html:21 gem/templates/comments/reply.html:20
+msgid " to leave a comment."
+msgstr "تبصرہ چھوڑنے کے لئے۔"
+
+#: gem/templates/comments/report_comment.html:11
+msgid "Please let us know why you are reporting this comment?"
+msgstr ""
+
+#: gem/templates/comments/report_comment.html:19
+msgid "Report Comment"
+msgstr ""
+
+#: gem/templates/comments/report_response.html:11
+msgid "Thanks!"
+msgstr "شکریہ!"
+
+#: gem/templates/comments/report_response.html:15
+msgid "This comment has been reported."
+msgstr "اس تبصرہ کی رپورٹ کی گئی۔"
+
+#: gem/templates/comments/report_response.html:16
+msgid ""
+"It will be reviewed by the moderation team and may be removed if it breaks "
+"our Platform rules"
+msgstr ""
+"موڈریشن ٹیم اس کا جائزہ لے گی اور اگر یہ پلیٹ فارم کے اصولوں کی خلاف ورزی "
+"کرتا ہے تو اسے نکالا جا سکتا ہے"
+
+#: gem/templates/comments/user_has_already_reported.html:11
+msgid "You have already reported this comment"
+msgstr ""
+
+#: gem/templates/comments/user_has_already_reported.html:15
+msgid ""
+"The comment will be reviewed by the moderation team and may be removed if it "
+"breaks our Platform rules"
+msgstr ""
+"موڈریشن ٹیم اس کا جائزہ لے گی اور اگر یہ پلیٹ فارم کے اصولوں کی خلاف ورزی "
+"کرتا ہے تو اسے نکالا جا سکتا ہے"
+
+#: gem/templates/core/article_intro_partial.html:33
+msgid "Read more"
+msgstr "مزید پڑھیں"
+
+#: gem/templates/core/language_block.html:5
+msgid "Language"
+msgstr ""
+
+#: gem/templates/core/main.html:20
+msgid ""
+"This site is free for all MTN subscribers. If you are an Airtel subscriber, "
+"you can access this site for free by going to "
+msgstr ""
+
+#: gem/templates/forgot_password.html:7 gem/templates/forgot_password.html:33
+#: gem/templates/registration/login.html:26
+msgid "Forgot PIN"
+msgstr "پن بھول گئے"
+
+#: gem/templates/forgot_password.html:26
+msgid "Security question"
+msgstr "سلامتی سوال"
+
+#: gem/templates/forgot_password.html:27
+msgid "Please answer the following security question."
+msgstr "براہ کرم مندرجہ ذیل سلامتی سوال کا جواب دیں۔"
+
+#: gem/templates/polls/results.html:7
+msgid "What's your opinion?"
+msgstr "آپ کی رائے کیا ہے؟"
+
+#: gem/templates/polls/results.html:25
+msgid "Thank you for voting!"
+msgstr "ووٹ کرنے کے لئے شکریہ!"
+
+#: gem/templates/profiles/change_password.html:25
+#: gem/templates/profiles/viewprofile.html:70
+msgid "Old Password:"
+msgstr "پرانا پاسورڈ:"
+
+#: gem/templates/profiles/change_password.html:30
+#: gem/templates/profiles/viewprofile.html:75
+msgid "New Password:"
+msgstr "نیا پاسورڈ:"
+
+#: gem/templates/profiles/change_password.html:35
+msgid "Confirm New Password:"
+msgstr "نئے پاسورڈ کی تصدیق کریں:"
+
+#: gem/templates/profiles/change_password.html:39
+msgid "Change Password"
+msgstr "پاسورڈ تبدیل کریں"
+
+#: gem/templates/profiles/done.html:7
+msgid "Thank you for joining!"
+msgstr "شامل ہونے کے لئے شکریہ!"
+
+#: gem/templates/profiles/done.html:8
+msgid "Let us know your birthday to get access to exclusive content."
+msgstr "خصوصی مندرجات تک رسائی حاصل کرنے کے لئے ہمیں اپنی تاریخ پیدائش بتائیں۔"
+
+#: gem/templates/profiles/done.html:11
+msgid "Update"
+msgstr "تازہ کاری کریں"
+
+#: gem/templates/profiles/done.html:12
+msgid "Skip"
+msgstr "چھوڑ دیں"
+
+#: gem/templates/profiles/editprofile.html:7
+msgid "Edit your Profile"
+msgstr "اپنے پروفائل میں تدوین کریں"
+
+#: gem/templates/profiles/editprofile.html:11
+msgid "Nickname:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:12
+#: gem/templates/profiles/register.html:16
+msgid ""
+"Please do not use your real name, phone number or email address as it's "
+"unsafe."
+msgstr ""
+"براہ کرم اپنا اصلی نام، فون نمبر یا ای میل استعمال نہیں کریں کیوں کہ یہ "
+"غیرمحفوظ ہے۔"
+
+#: gem/templates/profiles/editprofile.html:17
+#: gem/templates/profiles/viewprofile.html:27
+msgid "Date of birth:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:20
+#: gem/templates/profiles/viewprofile.html:33
+msgid "Gender:"
+msgstr "جنس"
+
+#: gem/templates/profiles/editprofile.html:25
+#: gem/templates/profiles/viewprofile.html:40
+msgid "Mobile number:"
+msgstr "موبائل نمبر:"
+
+#: gem/templates/profiles/editprofile.html:30
+msgid "Email address:"
+msgstr ""
+
+#: gem/templates/profiles/editprofile.html:36
+msgid "Update profile"
+msgstr "پروفائل تازہ کاری کریں"
+
+#: gem/templates/profiles/register.html:12
+msgid "Not a member yet? Join us by signing up below."
+msgstr "اب تک رکن نہیں ہیں؟ نیچے سائن اپ کرکے ہمارے ساتھ شامل ہوں۔"
+
+#: gem/templates/profiles/register.html:15
+msgid "Choose a username"
+msgstr "صارف نام منتخب کریں"
+
+#: gem/templates/profiles/register.html:20
+msgid "Choose a 4-digit pin"
+msgstr "ایک 4 عددی پن کا انتخاب کریں"
+
+#: gem/templates/profiles/register.html:26
+msgid "Enter your mobile number"
+msgstr "اپنا موبائل نمبر داخل کریں"
+
+#: gem/templates/profiles/register.html:34
+msgid "I identify my gender as"
+msgstr "میں اپنی جنس کی شناخت اس طرح کرتا/کرتی ہوں"
+
+#: gem/templates/profiles/register.html:37
+msgid "Only you will see this"
+msgstr "اسے صرف آپ دیکھیں گے"
+
+#: gem/templates/profiles/register.html:39
+msgid "Security questions"
+msgstr "سلامتی سوالات"
+
+#: gem/templates/profiles/register.html:40
+msgid ""
+"Please answer the following security questions. You'll have to provide these "
+"answers if you ever need to reset your password."
+msgstr ""
+"براہ کرم مندرجہ ذیل سلامتی سوالات کا جواب دیں۔ اگر آپ کو کبھی اپنا پاسورڈ "
+"دوبارہ سیٹ کرنے کی ضرورت ہوتی ہے تو آپ کو یہ جوابات فراہم کرنے ہوں گے۔"
+
+#: gem/templates/profiles/register.html:52
+msgid ""
+"Please accept the terms and conditions in order to complete registration"
+msgstr ""
+
+#: gem/templates/profiles/register.html:57
+#: gem/templates/yourwords/your_words_competition_entry.html:66
+msgid "I accept the terms and conditions"
+msgstr ""
+
+#: gem/templates/profiles/register.html:63
+msgid "already joined?"
+msgstr "پہلے ہی شامل ہو چکے؟"
+
+#: gem/templates/profiles/viewprofile.html:8
+msgid "Hello"
+msgstr "ہیلو"
+
+#: gem/templates/profiles/viewprofile.html:12
+msgid "log out"
+msgstr "لاگ آؤٹ کریں"
+
+#: gem/templates/profiles/viewprofile.html:18
+msgid "Your Profile"
+msgstr ""
+
+#: gem/templates/profiles/viewprofile.html:22
+msgid "When you type comments your name will appear as:"
+msgstr "جب آپ تبصرہ جات ٹائپ کرتے/کرتی ہیں تو آپ کا نام اس طرح ظاہر ہوگا:"
+
+#: gem/templates/profiles/viewprofile.html:25
+msgid "You haven't set a nickname, so your comments will appear as 'anonymous'"
+msgstr ""
+
+#: gem/templates/profiles/viewprofile.html:45
+msgid "Update Profile"
+msgstr "پروفائل تازہ کاری کریں"
+
+#: gem/templates/profiles/viewprofile.html:54
+msgid "Change Your Password"
+msgstr "پاسورڈ تبدیل کریں"
+
+#: gem/templates/profiles/viewprofile.html:80
+msgid "Confirm Password:"
+msgstr "پاسورڈ کی تصدیق کریں:"
+
+#: gem/templates/profiles/viewprofile.html:84
+msgid "Change"
+msgstr "تبدیل کریں"
+
+#: gem/templates/registration/login.html:13
+msgid "Not a member yet"
+msgstr "اب تک رکن نہیں ہیں"
+
+#: gem/templates/registration/login.html:17
+msgid "Your username and password do not match. Please try again."
+msgstr ""
+
+#: gem/templates/registration/login.html:21
+msgid "4-digit pin"
+msgstr "4-عددی پن"
+
+#: gem/templates/reset_password.html:7 gem/templates/reset_password.html:33
+msgid "Reset PIN"
+msgstr "پن دوبارہ سیٹ کریں"
+
+#: gem/templates/reset_password_success.html:7
+msgid "PIN Changed"
+msgstr "پن بدل گیا"
+
+#: gem/templates/reset_password_success.html:10
+msgid "Your PIN was changed successfully."
+msgstr ""
+
+#: gem/templates/reset_password_success.html:12
+msgid "Continue to Sign In"
+msgstr "سائن ان کرنا جاری رکھیں"
+
+#: gem/templates/search/search_block.html:4
+msgid "looking for something?"
+msgstr "کسی چیز کی تلاش ہے؟"
+
+#: gem/templates/search/search_block.html:5
+#: gem/templates/search/search_results.html:12
+#: gem/templates/search/search_results.html:64
+#: gem/templates/search/search_results.html:71
+msgid "Search"
+msgstr "تلاش"
+
+#: gem/templates/search/search_results.html:13
+msgid "results found for"
+msgstr "نتائج ملے"
+
+#: gem/templates/search/search_results.html:67
+msgid "No search results for "
+msgstr "کوئی تلاش نتیجہ نہیں ہے"
+
+#: gem/templates/search/search_results.html:70
+msgid "I am looking for"
+msgstr "مجھے تلاش ہے"
+
+#: gem/templates/surveys/molo_survey_page.html:48
+msgid "Next Question"
+msgstr "اگلا سوال"
+
+#: gem/templates/surveys/molo_survey_page.html:48
+msgid "Done"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page.html:51
+msgid "You have already completed this survey."
+msgstr "آپ نے پہلے ہی یہ سروے جمع کر دیا ہے۔"
+
+#: gem/templates/surveys/molo_survey_page.html:54
+#: gem/templates/surveys/molo_survey_page_landing.html:9
+msgid "Back to Home page"
+msgstr ""
+
+#: gem/templates/surveys/molo_survey_page.html:59
+msgid "Log in to take survey"
+msgstr "سروے کرنے کے لیے لاگ ان کریں"
+
+#: gem/templates/surveys/molo_survey_page_landing.html:12
+msgid "Survey Results"
+msgstr "سروے کے نتائج"
+
+#: gem/templates/surveys/molo_survey_page_landing.html:14
+msgid ""
+"Your survey has been completed successfully. Please see your submission "
+"results below."
+msgstr ""
+"آپ کا سروے کامیابی کے ساتھ مکمل ہو گیا ہے۔ براہ کرم ذیل میں اپنی جمع آوری کے "
+"نتائج دیکھیں۔"
+
+#: gem/templates/surveys/surveys_list.html:13
+msgid "Start"
+msgstr ""
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:7
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:19
+msgid "Edit this page"
+msgstr "اس صفحہ میں تدوین کریں"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:19
+msgid "Edit"
+msgstr "تدوین"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:22
+msgid "Draft"
+msgstr "ڈرافٹ"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:25
+msgid ""
+"This page is published but does not exist within the configured site, so "
+"cannot be reviewed."
+msgstr ""
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:25
+msgid "Live"
+msgstr "لائیو"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:28
+msgid "Move"
+msgstr "منتقل کریں"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:31
+msgid "Copy"
+msgstr "کاپی کریں"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:34
+msgid "Delete"
+msgstr "حذف کریں"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:37
+msgid "Unpublish"
+msgstr "غیر مطبوعہ"
+
+#: gem/templates/wagtailadmin/pages/listing/_page_title_explore.html:40
+msgid "Add child page"
+msgstr "چائلڈ صفحہ جوڑیں"
+
+#: gem/templates/yourwords/terms_and_conditions.html:48
+msgid "BACK"
+msgstr "واپس"
+
+#: gem/templates/yourwords/thank_you.html:7
+#: gem/templates/yourwords/your_words_competition_entry.html:7
+#: gem/templates/yourwords/your_words_competition_tag.html:8
+msgid "Share your story"
+msgstr "اپنی کہانی اشتراک کریں"
+
+#: gem/templates/yourwords/thank_you.html:10
+msgid "Thank you!"
+msgstr "آپ کا شکریہ!"
+
+#: gem/templates/yourwords/thank_you.html:11
+msgid ""
+"Thanks for submitting your story! You’ll find out soon if you’re a winner!"
+msgstr ""
+"اپنی کہانی جمع کرنے کے لئے شکریہ! اگر آپ فاتح ہوتے ہیں تو جلد ہی آپ کو پتہ "
+"چل جائے گا!"
+
+#: gem/templates/yourwords/thank_you.html:17
+msgid "HOME"
+msgstr "ہوم"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:51
+msgid "Title of your story"
+msgstr "آپ کی کہانی کا عنوان"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:57
+msgid "Tell us your story here"
+msgstr "اپنی کہانی ہمیں یہاں سنائیں"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:71
+msgid "Share my story anonymously"
+msgstr "میری کہانی گمنام طور پر اشتراک کریں"
+
+#: gem/templates/yourwords/your_words_competition_entry.html:75
+msgid "Submit Your Story"
+msgstr "اپنی کہانی جمع کریں"
+
+#: gem/templates/yourwords/your_words_competition_tag.html:18
+msgid "Write your story"
+msgstr "اپنی کہانی لکھیں"
+
+#: gem/templates/yourwords/your_words_competition_tag.html:22
+msgid "Log in to Enter"
+msgstr "داخل کرنے کے لئے لاگ ان کریں"
+
+#: gem/views.py:113
+msgid "Too many attempts. Please try again later."
+msgstr "بہت زیادہ کوششیں۔ براہ کرم بعد میں دوبارہ کوشش کریں۔"
+
+#: gem/views.py:131
+msgid "The username that you entered appears to be invalid. Please try again."
+msgstr ""
+"آپ کی جانب سے داخل کردہ صارف نام غلط معلوم ہوتا ہے۔ براہ کرم دوبارہ کوشش "
+"کریں۔"
+
+#: gem/views.py:156
+msgid "Your answer to the security question was invalid. Please try again."
+msgstr "سلامتی سوال کے لئے آپ کا جواب غلط تھا۔ براہ کرم دوبارہ کوشش کریں۔"
+
+#: gem/views.py:214
+msgid "The two PINs that you entered do not match. Please try again."
+msgstr ""
+"آپ کی جانب سے داخل کردہ دونوں پن میل نہیں کھاتے ہیں۔ براہ کرم دوبارہ کوشش "
+"کریں۔"
+
+#: gem/views.py:340
+msgid ""
+"This comment has been removed as it contains profanity, contact information "
+"or other inappropriate content. "
+msgstr ""
+"اس تبصرہ کو ہٹا دیا گیا ہے کیوں کہ اس میں تحقیر آمیز، رابطے کی معلومات یا "
+"دیگر نامناسب مندرجات شامل ہیں۔"

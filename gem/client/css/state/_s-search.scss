@@ -1,0 +1,24 @@
+.search-results {
+    background-color: #FFF;
+    position: relative;
+
+    label {
+        display: none;
+    }
+
+    &.article-list {
+
+        .search-image{
+            position: relative;
+            padding: 10px;
+        }
+
+        .section-image {
+            display: block;
+            width: 50px;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+        }
+    }
+}
