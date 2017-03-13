@@ -1,1 +1,0 @@
-# springster-scratchpad
