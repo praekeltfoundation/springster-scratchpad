@@ -3,17 +3,11 @@
   padding: 0 8px;
   line-height: 42px;
   text-align: right;
-  background: #00b8ae;
+  background: $colorPurple;
 
   a {
     font-size: 16px;
     padding: 5px 10px;
-  }
-
-  a[href="#search-form"] {
-    img {
-      margin-bottom: 2px;
-    }
   }
 
   a, a:visited {
@@ -25,11 +19,87 @@
   }
 
   #logo {
-    float: left;
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -50px;
     padding: 0;
+    width: 97px;
+  }
+
+  .header-menu {
+    margin-top: 11px;
+    float: left;
+    width: 30px;
+  }
+  .header-avatar {
+    img {
+      margin-bottom: 2px;
+    }
+
   }
 }
 
 .banner__birthday {
   background: #f3f4f1;
+}
+
+.section-nav {
+  background-color: $colorPurple;
+  padding: 0 2em;
+  input, input + * {
+    display: none;
+  }
+  input:checked + * {
+    display: block;
+ }
+}
+
+.section-nav-list {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  margin: 0;
+  padding: 0 0 10px;
+  list-style-type: none;
+}
+.section-nav-list__item {
+  display: inline-block;
+  padding: 5px 15px;
+}
+.section-nav-list__anchor {
+  text-decoration: none;
+  font-size: $font-medium;
+  font-weight: 600;
+  display: block;
+  color: $colorWhite;
+  border-bottom: 2px solid $colorPurple;
+  &:hover, &.selected {
+    color: $colorWhite;
+    border-color: $colorWhite;
+  }
+  &.yellow {
+    color: $colorYellow;
+    &:hover {
+      border-color: $colorYellow;
+    }
+  }
+  &.truq {
+    color: $colorTurq;
+    &:hover {
+      border-color: $colorTurq;
+    }
+  }
+  &.orange {
+    color: $colorOrange;
+    &:hover {
+      border-color: $colorOrange;
+    }
+  }
+  &.pink {
+    color: $colorPink;
+    &:hover {
+      border-color: $colorPink;
+    }
+  }
 }

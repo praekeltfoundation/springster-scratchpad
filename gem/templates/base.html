@@ -66,21 +66,6 @@
         <!-- End Global Google Tag Manager -->
         {% endif %}
 
-        <div id="gem-header">
-            <a id="logo" href="/">
-              <img src="{% static '' %}img/logo{% get_site_static_prefix %}.png" width="119" height="28" alt="Girl Effect" />
-            </a>
-            <a href="#feature-menu">{% trans "Menu" %}</a>
-            {% if not user.is_authenticated %}
-              <a href="{% url 'molo.profiles:user_register' %}">{% trans "Sign up" %}</a>
-            {% else %}
-            <a href="{% url 'molo.profiles:view_my_profile' %}">{% trans "Profile" %}</a>
-            {% endif %}
-            <a href="#search-form">
-              <img src="{% static 'img/search_white.png' %}" width="19" height="19" alt="Search" />
-            </a>
-        </div>
-
         {% if languages|length > 1 %}
         <div class="language-container">
            {% get_current_language as LANGUAGE_LOCALE %}
@@ -89,6 +74,47 @@
             {% endfor %}
         </div>
         {% endif %}
+
+        <div id="gem-header">
+            <a id="logo" href="/">
+              <img src="{% static '' %}img/springster-logo{% get_site_static_prefix %}.svg" width="97" height="24" alt="Springster" />
+            </a>
+            <label class="header-menu" for="menu-toggle">
+              <img src="{% static 'img/burger.svg' %}" width="24" height="24" alt="Menu" />
+            </label>
+            {% if not user.is_authenticated %}
+              <a class="header-avatar" href="{% url 'molo.profiles:user_register' %}">
+                <img src="{% static 'img/avatar.svg' %}" width="24" height="24" alt="Search" />
+              </a>
+            {% else %}
+            <a class="header-avatar" href="{% url 'molo.profiles:view_my_profile' %}">
+              <img src="{% static 'img/avatar.svg' %}" width="24" height="24" alt="profile" />
+            </a>
+            {% endif %}
+            <a href="#search-form">
+              <img src="{% static 'img/nav_search.svg' %}" width="24" height="24" alt="Search" />
+            </a>
+        </div>
+        <div class="section-nav">
+          <input type="checkbox" id="menu-toggle">
+          <ul class="section-nav-list">
+            <li class="section-nav-list__item">
+              <a href="/" class="section-nav-list__anchor selected">Home</a>
+            </li>
+            <li class="section-nav-list__item">
+              <a href="#" class="section-nav-list__anchor yellow">My Body</a>
+              </li>
+            <li class="section-nav-list__item">
+              <a href="#" class="section-nav-list__anchor turq">My Life</a>
+              </li>
+            <li class="section-nav-list__item">
+              <a href="#" class="section-nav-list__anchor orange">My Future</a>
+            </li>
+            <li class="section-nav-list__item">
+              <a href="#" class="section-nav-list__anchor pink">Girl Stories</a>
+            </li>
+          </ul>
+        </div>
 
         {% if 'ninyampinga.com' in request.get_host %}
           <div class="banner__birthday">
@@ -102,7 +128,7 @@
         <div class="back-to-top">
           <a href="#gem-header">{% trans "Back to Top" %}</a>
         </div>
-        <div class="teal-ribbon"></div>
+        <!-- <div class="teal-ribbon"></div> -->
         <div id="gem-footer">
         {% block footer %}
           {% block search %}
@@ -151,12 +177,15 @@
           {% endblock %}
 
           {% include "core/language_block.html" %}
-          <div id="footer-bar">
-              <p>@{% now "Y" %}  Girl Effect. {% trans "All Rights Reserved." %}</p>
-              {% if settings.gem.GemSettings.show_partner_credit %}
-                <a href="{{settings.gem.GemSettings.partner_credit_link}}">{{settings.gem.GemSettings.partner_credit_description}}</a>
-              {% endif %}
-          </div>
+        </div>
+        <div id="footer-bar">
+            <a id="logo" href="/">
+              <img src="{% static '' %}img/springster-logo-footer{% get_site_static_prefix %}.svg" width="216" height="64" alt="Springster" />
+            </a>
+            <p>&copy; {% now "Y" %} Springster. {% trans "All Rights Reserved." %}</p>
+            {% if settings.gem.GemSettings.show_partner_credit %}
+              <a href="{{settings.gem.GemSettings.partner_credit_link}}">{{settings.gem.GemSettings.partner_credit_description}}</a>
+            {% endif %}
         </div>
 
         {% wagtailuserbar %}
