@@ -138,7 +138,6 @@
 .template-main {
   #article-hero {
     .text {
-      margin: 0 16px;
       position: relative;
 
       .section-title {
@@ -189,7 +188,6 @@
   }
 }
 
-.template-main .article-list,
 #article-hero {
   &:after {
     clear: both;
@@ -198,9 +196,7 @@
     border-bottom: 4px solid #EDF0F2;
     margin: 10px 0;
   }
-}
-#article-hero {
-  .article-preview{
+  .article-preview {
     .text {
       position: relative;
     }
@@ -210,3 +206,4 @@
     }
   }
 }
+
