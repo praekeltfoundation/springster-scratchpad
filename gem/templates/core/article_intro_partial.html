@@ -1,4 +1,4 @@
-{% load wagtailcore_tags wagtailimages_tags core_tags i18n %}
+{% load wagtailcore_tags wagtailimages_tags core_tags static i18n %}
 <div class="article-preview">
 
   {% if article.image %}
@@ -27,5 +27,22 @@
     <h3><a href="{% pageurl article %}">{{ article.title }}</a></h3>
     <p>{{ article.subtitle }}</p>
     <a class="read-more" href="{% pageurl article %}">{% trans "Read more" %}</a>
+    <div class="article-footer">
+      <div class="article-footer-tag">
+        <ul class="article-footer-tag-list">
+          <li class="article-footer-tag-list__item">
+            <a href="#" class="article-footer-tag-list__anchor">health</a>
+          </li>
+          <li class="article-footer-tag-list__item">
+            <a href="#" class="article-footer-tag-list__anchor">goals</a></li>
+          </li>
+        </ul>
+      </div>
+      <div class="comment-count">
+        <a class="header-avatar" href="#">
+          <img src="{% static 'img/comment.svg' %}" width="24" height="24" alt="Search" /> 
+        </a>
+      </div>
+    </div>
   </div>
 </div>
