@@ -116,7 +116,7 @@
             <a id="logo" href="/">
               <img src="{% static '' %}img/springster-logo{% get_site_static_prefix %}.svg" width="97" height="24" alt="Springster" />
             </a>
-            <label class="header-menu" for="menu-toggle">
+            <label type="button" class="header-menu" for="menu-toggle">
               <img src="{% static 'img/burger.svg' %}" width="24" height="24" alt="Menu" />
             </label>
             {% if not user.is_authenticated %}
@@ -155,7 +155,7 @@
         {% endif %}
 
         <div class="section-tag-header">
-          <label for="tag-menu-toggle">what do you want to read about? <i class="chevron"></i></label>
+          <label type="button" for="tag-menu-toggle">what do you want to read about? <i class="chevron"></i></label>
         </div>
         
         <div class="section-tag-nav">
@@ -237,7 +237,6 @@
                       </a>
                     </li>
                   {% endfor %}
-                {% footer_page %}
                 <li class="footer-menu-list__item"><a href="/" class="footer-menu-list__anchor">{% trans "About Springster" %}</a></li>
               </ul>
 

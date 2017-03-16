@@ -70,8 +70,10 @@
   
   .comment-count  {
     position: absolute;
-    right: 0;
+    right: 10px;
+    bottom: 3px;
     display: inline-block;
+    height: 25px;
   }
 }
 
@@ -195,5 +197,16 @@
     content: " ";
     border-bottom: 4px solid #EDF0F2;
     margin: 10px 0;
+  }
+}
+#article-hero {
+  .article-preview{
+    .text {
+      position: relative;
+    }
+    .comment-count {
+      right: 2px;
+      bottom: 0;
+    }
   }
 }
