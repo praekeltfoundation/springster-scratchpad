@@ -32,12 +32,22 @@
     float: left;
     width: 30px;
   }
+  
   .header-avatar {
     img {
       margin-bottom: 2px;
     }
-
   }
+
+  &.version-1 {
+    .header-avatar {
+      line-height: normal;
+      margin-top: 6px;;
+      float: left;
+      width: 25px;
+    }
+  }
+
 }
 
 .banner__birthday {
@@ -46,12 +56,25 @@
 
 .section-nav {
   background-color: $colorPurple;
-  padding: 0 2em;
+  padding: 0 1em;
   input, input + * {
     display: none;
   }
   input:checked + * {
     display: block;
+ }
+ &.version-1 {
+   padding: 0 10px;
+   .section-nav-list {
+     text-align: left;
+     padding: 0;
+   }
+   .section-nav-list__item {
+     padding: 5px;
+   }
+   .section-nav-list__anchor {
+     font-size: $font-x-medium;
+   }
  }
 }
 
@@ -65,7 +88,7 @@
 }
 .section-nav-list__item {
   display: inline-block;
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 .section-nav-list__anchor {
   text-decoration: none;
@@ -102,4 +125,76 @@
       border-color: $colorPink;
     }
   }
+}
+
+.section-tag-header {
+  text-align: center;
+  background: $colorWhite;
+  margin: 5px 10px;
+  label {
+    font-weight: 100;
+    font-size: 12px;
+    color: $colorPurple;
+    text-transform: uppercase;
+  }
+}
+
+.section-tag-nav {
+  background-color: $colorWhite;
+  padding: 0 2em;
+  input, input + * {
+    display: none;
+  }
+  input:checked + * {
+    display: block;
+ }
+}
+.section-tag-nav-list {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  margin: 0;
+  padding: 0 0 10px;
+  list-style-type: none;
+}
+.section-tag-nav-list__item {
+  display: inline-block;
+  padding: 2px 5px;
+}
+.section-tag-nav-list__anchor {
+  text-transform: lowercase;;
+  text-decoration: none;
+  font-size: $font-small;
+  font-weight: 100;
+  display: block;
+  color: $colorPurple;
+  &:hover {
+    color: $colorBlack;
+  }
+  &:before {
+    content: "#";
+    margin-right: 3px;
+  }
+}
+.chevron {
+  position: absolute;
+  margin: 8px 0px 0px 5px;
+  display: inline-block;;
+  height: 12px;/*height should be double border*/
+}
+.chevron:before,
+.chevron:after {
+  position: absolute;
+  display: inline-block;;
+  content: "";
+  border: 6px solid transparent;/*adjust size*/
+}
+/* Replace all text `top` below with left/right/bottom to rotate the chevron */
+.chevron:before {
+  top: 0;
+  border-top-color: $colorPurple;/*chevron Color*/
+}
+.chevron:after {
+  top: -3px;/*adjust thickness*/
+  border-top-color: #fff;/*Match background colour*/
 }

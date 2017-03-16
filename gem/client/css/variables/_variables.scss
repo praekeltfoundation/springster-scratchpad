@@ -7,13 +7,17 @@ $font-large         :     20px;
 $font-x-large       :     32px;
 $font-xx-large      :     40px;
 
-// Typography
+// Typography //tempfix
 
-$font-family-sans-serif: "TwCenMT-Regular", ArialMT, Arial, sans-serif;
-$font-family-TwCentBold: "TwCenMT-Bold", Arial-BoldMT, Arial, sans-serif;
-$font-family-avenir-ot: "Avenir", ArialMT, Arial, sans-serif;
-$font-family-avenirBold: "AvenirBold", Arial-BoldMT, Arial, sans-serif;
+$font-family-sans-serif: ArialMT, Arial, sans-serif;
+$font-family-TwCentBold: Arial-BoldMT, Arial, sans-serif;
+$font-family-avenir-ot: ArialMT, Arial, sans-serif;
+$font-family-avenirBold: Arial-BoldMT, Arial, sans-serif;
 
+// $font-family-sans-serif: "TwCenMT-Regular", ArialMT, Arial, sans-serif;
+// $font-family-TwCentBold: "TwCenMT-Bold", Arial-BoldMT, Arial, sans-serif;
+// $font-family-avenir-ot: "Avenir", ArialMT, Arial, sans-serif;
+// $font-family-avenirBold: "AvenirBold", Arial-BoldMT, Arial, sans-serif;
 
 
 // Colour - defaults

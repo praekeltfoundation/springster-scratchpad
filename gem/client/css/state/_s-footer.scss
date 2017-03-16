@@ -4,9 +4,9 @@
   #search-form {
     order: 1;
     -webkit-order: 1;
-    border: 2px solid #7325FC;
+    border: 2px solid $colorPurple;
 
-    margin: 0 8px 24px 8px;
+    margin: 8px;
 
     form {
       display: flex;
