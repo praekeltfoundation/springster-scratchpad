@@ -17,10 +17,6 @@
   {% endif %}
 
   <div class="text">
-    <div class="section-title">
-      {% get_translation article.get_parent_section as section %}
-      <a href="{% pageurl section %}">{{ section }}</a>
-    </div>
 
     {% if article %}
           {% image article.get_parent_section.image width-200 as tmp_photo_small %}

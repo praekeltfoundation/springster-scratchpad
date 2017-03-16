@@ -1,17 +1,43 @@
 .footer-languages {
-  color: #5C5C5C;
-  font-size: 20px;
-  padding: 15px 0 0 10px;
-
+  color: $colorPurple;
+  padding: 10px 0 0 10px;
 }
 
 .languages__item {
-  color: #7A7A7A;
+  color: $colorPurple;
   padding: 0 3px;
   font-size: 15px;
 }
 
 .languages__item--active {
-  color: #00b8ae;
   text-decoration: underline;
+}
+#gem-footer {
+  a {
+    text-decoration: none;
+  }
+  .left {
+      float: left;
+      width: 50%;
+  }
+  .right {
+      float: right;
+      width: 50%;
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .group:after {
+      content:"";
+      display: table;
+      clear: both;
+  }
+  @media screen and (max-width: 280px) {
+      .left, .right {
+          float: none;
+          width: auto;
+      }
+  }
+
 }
