@@ -22,9 +22,9 @@ $font-family-avenirBold: Arial-BoldMT, Arial, sans-serif;
 
 // Colour - defaults
 
-$colorFirst: #A4EED2; 
-$colorSecond: #FFFC80; 
-$colorThird: #FCAB88; 
+$colorFirst: #A4EED2;
+$colorSecond: #FFFC80;
+$colorThird: #FCAB88;
 $colorFourth: #333;
 
 $colorWhite: #ffffff;
@@ -35,5 +35,14 @@ $colorWhiteSmoke: #ececec;
 $colorPurple: #7300FF;
 $colorYellow: #FFFC80;
 $colorTurq: #A4EED2;
-$colorOrange: #FCAB88; 
-$colorPink: #FF87D9; 
+$colorOrange: #FCAB88;
+$colorPink: #FF87D9;
+
+
+$color_list: (
+  pink      :     $colorPink,
+  orange    :     $colorOrange,
+  turq      :     $colorTurq,
+  yellow    :     $colorYellow,
+  purple    :     $colorPurple,
+)

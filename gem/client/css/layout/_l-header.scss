@@ -33,7 +33,7 @@
     float: left;
     width: 30px;
   }
-  
+
   .header-avatar {
     img {
       margin-bottom: 2px;
@@ -96,35 +96,11 @@
   font-size: $font-medium;
   font-weight: 600;
   display: block;
-  color: $colorWhite;
+  color: #fff;
   border-bottom: 2px solid $colorPurple;
   &:hover, &.selected {
-    color: $colorWhite;
-    border-color: $colorWhite;
-  }
-  &.yellow {
-    color: $colorYellow;
-    &:hover {
-      border-color: $colorYellow;
-    }
-  }
-  &.truq {
-    color: $colorTurq;
-    &:hover {
-      border-color: $colorTurq;
-    }
-  }
-  &.orange {
-    color: $colorOrange;
-    &:hover {
-      border-color: $colorOrange;
-    }
-  }
-  &.pink {
-    color: $colorPink;
-    &:hover {
-      border-color: $colorPink;
-    }
+    color: #fff;
+    border-color: #fff;
   }
 }
 
@@ -198,4 +174,13 @@
 .chevron:after {
   top: -3px;/*adjust thickness*/
   border-top-color: #fff;/*Match background colour*/
+}
+
+
+@each $name, $color in $color_list {
+  .section-nav-list__item--#{$name} {
+    .section-nav-list__anchor {
+      color: $color;
+    }
+  }
 }

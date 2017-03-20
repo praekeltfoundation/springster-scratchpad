@@ -1,4 +1,4 @@
-{% load wagtailcore_tags wagtailimages_tags compress static wagtailuserbar core_tags i18n gem_tags %}
+{% load wagtailcore_tags wagtailimages_tags compress static wagtailuserbar core_tags mptt_tags comments molo_commenting_tags i18n gem_tags %}
 {% load google_analytics_tags %}
 {% load wagtailsettings_tags %}
 {% get_settings %}
@@ -97,18 +97,14 @@
             <li class="section-nav-list__item">
               <a href="/" class="section-nav-list__anchor selected">Home</a>
             </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor yellow">My Body</a>
-              </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor turq">My Life</a>
-              </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor orange">My Future</a>
-            </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor pink">Girl Stories</a>
-            </li>
+            {% load_sections as sections %}
+              {% for section in sections %}
+                <li class="section-nav-list__item section-nav-list__item{{section.get_effective_extra_style_hints}}">
+                  <a href="{% pageurl section %}" class="section-nav-list__anchor">
+                      {{section.title}}
+                  </a>
+                </li>
+              {% endfor %}
           </ul>
         </div>
         {% else %}
@@ -138,78 +134,33 @@
             <li class="section-nav-list__item">
               <a href="/" class="section-nav-list__anchor selected">Home</a>
             </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor yellow">My Body</a>
-              </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor turq">My Life</a>
-              </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor orange">My Future</a>
-            </li>
-            <li class="section-nav-list__item">
-              <a href="#" class="section-nav-list__anchor pink">Girl Stories</a>
-            </li>
+            {% load_sections as sections %}
+              {% for section in sections %}
+                <li class="section-nav-list__item section-nav-list__item{{section.get_effective_extra_style_hints}}">
+                  <a href="{% pageurl section %}" class="section-nav-list__anchor">
+                      {{section.title}}
+                  </a>
+                </li>
+              {% endfor %}
           </ul>
         </div>
         {% endif %}
 
         <div class="section-tag-header">
-          <label type="button" for="tag-menu-toggle">what do you want to read about? <i class="chevron"></i></label>
+          <label type="button" for="tag-menu-toggle">{% trans "what do you want to read about?" %}<i class="chevron"></i></label>
         </div>
-        
+
         <div class="section-tag-nav">
           <input type="checkbox" id="tag-menu-toggle">
-          <ul class="section-nav-list">
-            <li class="section-tag-nav-list__item">
-              <a href="/" class="section-tag-nav-list__anchor">health</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">period</a>
-              </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">puberty</a>
-              </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">beauty</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">sex</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">goals</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">future</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">career</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">money</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">saving</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">abuse</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">online</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">relationship</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">family</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">friendship</a>
-            </li>
-            <li class="section-tag-nav-list__item">
-              <a href="#" class="section-tag-nav-list__anchor">love</a>
-            </li>
-          </ul>
+          {% if settings.core.SiteSettings.enable_clickable_tags %}
+            <ul class="section-nav-list">
+              {% for tag in self.tags_list %}
+                <li class="section-tag-nav-list__item">
+                  <a href="{% url 'tags_list' tag %}?next={{request.path}}&tag={{tag}}" class="section-tag-nav-list__anchor">{{tag}}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </div>
 
         {% if 'ninyampinga.com' in request.get_host %}
@@ -228,7 +179,8 @@
         {% block footer %}
           <div class="group">
               <ul class="sections footer-menu-list left">
-                <li class="footer-menu-list__item"><a href="/" class="footer-menu-list__anchor">{% trans "Home" %}</a></li>
+                <li class="footer-menu-list__item">
+                  <a href="/" class="footer-menu-list__anchor">{% trans "Home" %}</a></li>
                 {% load_sections as sections %}
                   {% for section in sections %}
                     <li class="{{section.get_effective_extra_style_hints}} footer-menu-list__item">
@@ -237,12 +189,18 @@
                       </a>
                     </li>
                   {% endfor %}
-                <li class="footer-menu-list__item"><a href="/" class="footer-menu-list__anchor">{% trans "About Springster" %}</a></li>
+                <!-- ABOUT PAGE - COULD BE FOOTER PAGE -->
+                <li class="footer-menu-list__item">
+                  <a href="/" class="footer-menu-list__anchor">{% trans "About Springster" %}</a></li>
               </ul>
 
               <ul class="sections footer-menu-list right">
-                  <li class="footer-menu-list__item"><a href="#" class="footer-menu-list__anchor">{% trans "FAQs" %}</a></li>
-                  <li class="footer-menu-list__item"><a href="#" class="footer-menu-list__anchor">{% trans "Tips for use" %}</a></li>
+                <!-- FAQs PAGE - FIND TIPS TEMPLATE (COULD BE FOOTER PAGE)-->
+                  <li class="footer-menu-list__item">
+                    <a href="#" class="footer-menu-list__anchor">{% trans "FAQs" %}</a></li>
+                <!-- TIPS FOR USE - FIND TIPS TEMPLATE -->
+                  <li class="footer-menu-list__item">
+                    <a href="#" class="footer-menu-list__anchor">{% trans "Tips for use" %}</a></li>
                 {% if not user.is_authenticated %}
                   <li class="footer-menu-list__item">
                     <a href="{% url 'molo.profiles:user_register' %}" class="footer-menu-list__anchor">
@@ -269,6 +227,8 @@
                   </a>
                 </li>
                 {% endif %}
+
+                <!-- TERMS AND CONDITIONS PAGE - IS DYNAMIC -->
                 <li class="footer-menu-list__item"><a href="#" class="footer-menu-list__anchor">{% trans "Terms &amp; conditions" %}</a></li>
               </ul>
             </div>
