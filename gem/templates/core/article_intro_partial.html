@@ -17,7 +17,6 @@
   {% endif %}
 
   <div class="text">
-
     {% if article %}
           {% image article.get_parent_section.image width-200 as tmp_photo_small %}
           {% image article.get_parent_section.image width-400 as tmp_photo_large %}
@@ -28,21 +27,22 @@
     <p>{{ article.subtitle }}</p>
     <a class="read-more" href="{% pageurl article %}">{% trans "Read more" %}</a>
     <div class="article-footer">
+
+      {% if settings.core.SiteSettings.enable_clickable_tags %}
       <div class="article-footer-tag">
         <ul class="article-footer-tag-list">
+          {% for tag in self.tags_list %}
           <li class="article-footer-tag-list__item">
-            <a href="#" class="article-footer-tag-list__anchor">health</a>
-          </li>
-          <li class="article-footer-tag-list__item">
-            <a href="#" class="article-footer-tag-list__anchor">goals</a></li>
-          </li>
+              <a href="{% url 'tags_list' tag %}?next={{request.path}}&tag={{tag}}" class="article-footer-tag-list__anchor">{{tag}}</a>
+            </li>
+          {% endfor %}
         </ul>
-      </div>
-      
+          </div>
+      {% endif %}
     </div>
     <div class="comment-count">
       <a class="header-avatar" href="#">
-        <img src="{% static 'img/comment.svg' %}" width="24" height="24" alt="comments" /> 
+        <img src="{% static 'img/comment.svg' %}" width="24" height="24" alt="comments" />
       </a>
     </div>
   </div>
