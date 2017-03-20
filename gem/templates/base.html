@@ -149,9 +149,9 @@
         <div class="section-tag-header">
           <label type="button" for="tag-menu-toggle">{% trans "what do you want to read about?" %}<i class="chevron"></i></label>
         </div>
-
         <div class="section-tag-nav">
-          <input type="checkbox" id="tag-menu-toggle">
+        <input type="checkbox" id="tag-menu-toggle">
+        {% if self.tags_list %}
           {% if settings.core.SiteSettings.enable_clickable_tags %}
             <ul class="section-nav-list">
               {% for tag in self.tags_list %}
@@ -161,6 +161,69 @@
               {% endfor %}
             </ul>
           {% endif %}
+          {% else %}
+            <ul class="section-nav-list">
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/future/?next=/sections/&tag=future" class="section-tag-nav-list__anchor">{% trans "future"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/goals/?next=/sections/&tag=goals" class="section-tag-nav-list__anchor">{% trans "goals"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/career/?next=/sections/&tag=career" class="section-tag-nav-list__anchor">{% trans "career"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/money/?next=/sections/&tag=money" class="section-tag-nav-list__anchor">{% trans "money"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/saving/?next=/sections/&tag=saving" class="section-tag-nav-list__anchor">{% trans "saving"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/friendship/?next=/sections/&tag=friendship" class="section-tag-nav-list__anchor">{% trans "friendship"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}tags/health/?next=/sections/&tag=health" class="section-tag-nav-list__anchor">{% trans "health"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/relationship/?next=/sections/&tag=relationship" class="section-tag-nav-list__anchor">{% trans "relationship"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/love/?next=/sections/&tag=love" class="section-tag-nav-list__anchor">{% trans "love"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/period/?next=/sections/&tag=period" class="section-tag-nav-list__anchor">{% trans "period"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/puberty/?next=/sections/&tag=puberty" class="section-tag-nav-list__anchor">{% trans "puberty"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/beauty/?next=/sections/&tag=beauty" class="section-tag-nav-list__anchor">{% trans "beauty"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}" class="section-tag-nav-list__anchor">{% trans "sex"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/abuse/?next=/sections/&tag=abuse" class="section-tag-nav-list__anchor">{% trans "abuse"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/online/?next=/sections/&tag=online" class="section-tag-nav-list__anchor">{% trans "online"%}</a>
+                </li>
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}/tags/rights/?next=/sections/&tag=rights" class="section-tag-nav-list__anchor">{% trans "rights"%}</a>
+                </li>
+
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}" class="section-tag-nav-list__anchor">{% trans "family"%}</a>
+                </li>
+
+                <li class="section-tag-nav-list__item">
+                  <a href="{{ site.value.link }}tags/nutrition/?next=/sections&tag=nutrition" class="section-tag-nav-list__anchor">{% trans "nutrition"%}</a>
+                </li>
+
+
+
+            </ul>
+        {% endif %}
         </div>
 
         {% if 'ninyampinga.com' in request.get_host %}
