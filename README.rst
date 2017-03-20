@@ -7,7 +7,6 @@ Getting started
 ---------------
 
 To get started::
-
     $ virtualenv ve
     $ pip install -e .
     $ ./manage.py migrate
